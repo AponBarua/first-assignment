@@ -7,6 +7,13 @@
 	padding: 12px 36px;
 	font-weight:bold;
 	cursor: pointer;
+	border: 1px solid #4E47FF;
+	transition: 0.3s;
+}
+.btn-1:hover{
+	background: #f5f7ff;
+	border: 1px solid #4E47FF;
+	color:#4E47FF;
 }
 .title{
 	font-size:42px;
@@ -210,9 +217,9 @@ nav button{
 }
 .footer-nav a {
     text-decoration: none;
-    color: black;
+    color: #8987A1;
     cursor: pointer;
-	font-weight:700;
+    font-weight: 700;
 }
 .footer-nav li {
     list-style: none;
@@ -222,8 +229,9 @@ nav button{
     text-align: center;
     display: inline-block;
 }
-.footer p{
-	font-size:30px;
+.footer p {
+    font-size: 30px;
+    color: #8987A1;
 }
 .footer-body {
     width: 904px;
