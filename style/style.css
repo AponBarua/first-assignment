@@ -6,6 +6,7 @@
 	border-radius:10px; 
 	padding: 12px 36px;
 	font-weight:bold;
+	cursor: pointer;
 }
 .title{
 	font-size:42px;
@@ -37,6 +38,7 @@ nav h4 {
     font-weight: 900;
     font-size: 34px;
     margin: 0;
+	cursor:pointer;
 }
 nav button{
 	font-size:16px;
@@ -179,7 +181,6 @@ nav button{
 .get-btn {
     margin: 10px auto;
     width: 100%;
-	cursor: pointer;
 }
 .message {
     height: 56px;
@@ -190,6 +191,42 @@ nav button{
     outline: none;
     border-radius: 5px;
 }
-
-
+/* footer section */
+.footer {
+    height: 430px;
+    background: white;
+    text-align: center;
+    padding: 10px 91px;
+}
+.footer h4 {
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+    margin: 10px auto;
+    margin-top: 50px;
+}
+.footer-nav ul {
+    display: flex;
+}
+.footer-nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+	font-weight:700;
+}
+.footer-nav li {
+    list-style: none;
+    margin: 0 69px;
+}
+.footer-nav {
+    text-align: center;
+    display: inline-block;
+}
+.footer p{
+	font-size:30px;
+}
+.footer-body {
+    width: 904px;
+    margin: 0 auto;
+}
 
