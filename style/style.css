@@ -84,35 +84,37 @@ nav button{
 	font-size:25px;
 }
 /* users section */
-.user-section {
-    margin: 115px 140px;
-    text-align: center;
-}
+
 .users{
 	display:flex;
 	justify-content: space-around;
 }
 .active h2 {
     color: #4E47FF;
-    font-size: 80px;
-    margin:0 auto;
-	
+    font-size: 70px;
+    margin: 0 auto;
 }
 .user-section {
-    height: 300px;
-    width: 800px;
-    background: #e1f4ff;
-    margin: 0 auto;
-    padding: 15px 140px;
+    /* height: 180px; */
+    width: 755px;
+    background: #E5E7FF;
+    padding: 10px 140px;
     border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.user-section h3{
+	font-size: 38px;
 }
 /* rating */
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 .card-section h4 {
     text-align: center;
+	font-size: 50px;
 }
 .card-section .title {
     margin-top: 140px;
@@ -122,7 +124,7 @@ nav button{
     width: 260px;
     padding: 20px 51px 20px 20px;
     border-radius: 10px;
-    margin: 50px 0;
+    margin: 0;
     border: 1px solid #e7e7e7;
 }
 .card-footer {
@@ -137,14 +139,47 @@ nav button{
 .footer-text {
     margin: 0px 0px 0px 12px;
 }
-.footer-text p, h4 {
+.footer-text p {
     margin: 0 auto;
-	font-size: 13px;
+    font-size: 13px;
+    color: gray;
 }
-.footer h4{
+.footer-text h2 {
+    color: black;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/* input field */
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1037px;
+    height: 630px;
+    margin: 0 auto;
+    /* background: gray; */
+    align-items: center;
+}
+.input-box h3 {
+    font-size: 90px;
+}
+.input-area p {
+    margin: 12px auto;
+    font-size: 11px;
+    margin-bottom: 3px;
 	font-weight: bold;
-
 }
+.input-area input {
+    border: 1px solid #bfbfbf;
+    padding: 18px 17px;
+    border-radius: 5px;
+    width: 408px;
+}
+.get-btn {
+    margin: 10px auto;
+    width: 100%;
+}
+
 
 
 
