@@ -11,6 +11,10 @@
 	font-size:42px;
 	font-weight:bold;
 }
+/* full body */
+body{
+	background: #F5F8FF;
+}
 /* google font */
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -28,10 +32,11 @@ nav{
 nav li{
 	list-style: none;
 }
-nav h4{
-	color:#4E47FF;
-	font-weight: 900;
-	font-size: 34px;
+nav h4 {
+    color: #4E47FF;
+    font-weight: 900;
+    font-size: 34px;
+    margin: 0;
 }
 nav button{
 	font-size:16px;
@@ -69,6 +74,12 @@ nav button{
 	margin: 120px 140px;
 	
 }
+.img-1 img {
+    height: 330px;
+    width: 400px;
+    border-radius: 40px;
+	margin-right: 160px;
+}
 .action-info p{
 	font-size:25px;
 }
@@ -95,4 +106,45 @@ nav button{
     padding: 15px 140px;
     border-radius: 20px;
 }
+/* rating */
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.card-section h4 {
+    text-align: center;
+}
+.card-section .title {
+    margin-top: 140px;
+}
+.card {
+    background: white;
+    width: 260px;
+    padding: 20px 51px 20px 20px;
+    border-radius: 10px;
+    margin: 50px 0;
+    border: 1px solid #e7e7e7;
+}
+.card-footer {
+    display: flex;
+	align-items:center;
+}
+.card-footer img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.footer-text {
+    margin: 0px 0px 0px 12px;
+}
+.footer-text p, h4 {
+    margin: 0 auto;
+	font-size: 13px;
+}
+.footer h4{
+	font-weight: bold;
+
+}
+
+
 
