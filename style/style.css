@@ -170,6 +170,7 @@ nav button{
 	font-weight: bold;
 }
 .input-area input {
+	outline: none;
     border: 1px solid #bfbfbf;
     padding: 18px 17px;
     border-radius: 5px;
@@ -178,8 +179,17 @@ nav button{
 .get-btn {
     margin: 10px auto;
     width: 100%;
+	cursor: pointer;
 }
-
+.message {
+    height: 56px;
+    width: 410px;
+    padding: 18px 17px;
+    border-style: none;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    border-radius: 5px;
+}
 
 
 
