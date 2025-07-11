@@ -199,6 +199,11 @@ nav button{
     border-radius: 5px;
 }
 /* footer section */
+.footer-bar{
+	width: 100%;
+	height:1px;
+	background: #e9e9e9;
+}
 .footer {
     height: 430px;
     background: white;
@@ -220,6 +225,10 @@ nav button{
     color: #8987A1;
     cursor: pointer;
     font-weight: 700;
+	transition: 0.3s;
+}
+.footer-nav a:hover{
+	color:#4E47FF;
 }
 .footer-nav li {
     list-style: none;
@@ -237,4 +246,5 @@ nav button{
     width: 904px;
     margin: 0 auto;
 }
+
 
